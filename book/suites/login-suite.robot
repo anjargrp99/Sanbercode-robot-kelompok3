@@ -4,7 +4,7 @@ Resource                ../pageObjects/LoginPage/login-page.robot
 
 *** Test Cases ***
 Login with Valid Data
-    Open Flight Application    
+    base.Open Flight Application    
     Click Sign In Button On Home Page
     Input Username
     login-page.Input Password User
