@@ -27,6 +27,7 @@ Test Setup
 Perform Search
     [Documentation]    Perform the steps to test the search feature.
     Click Book Button
+    Get Index From List Content
     Get Index From List From City
     Get Index From List To City
     Get Index From List Class
