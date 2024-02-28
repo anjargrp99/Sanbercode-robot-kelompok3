@@ -50,21 +50,25 @@ Choose Class
     Click Element    ${spinner-class}
     Wait Until Element Is Visible    ${class-option}
     Click Element    ${class-option}
+
 Choose Start Date
     Wait Until Element Is Visible    ${start-date}
     Click Element    ${start-date}
     Wait Until Element Is Visible     ${date-picker-start}
     Click Element    ${date-picker-start}
     Click Element    ${btnok-date}
+
 Choose End Date
     Wait Until Element Is Visible    ${end-date}
     Click Element    ${end-date}
     Wait Until Element Is Visible     ${date-picker-start}
     Click Element    ${date-picker-end}
     Click Element    ${btnok-date}
+
 Choose Flight 
     Wait Until Element Is Visible    ${flight-Radio-Button}
     Click Element    ${flight-Radio-Button}
+    
 Click Button Book
     Wait Until Element Is Visible    ${book-flight-button}
     Click Element    ${book-flight-button}
