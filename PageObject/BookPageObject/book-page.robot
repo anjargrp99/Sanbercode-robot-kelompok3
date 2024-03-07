@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 * Settings *
+=======
+*** Settings ***
+>>>>>>> fee74fbb240263c612f45e498964d5fbbef1a319
 Resource        ../base/base.robot
 Resource        ../HomePageObjects/home-page.robot
 Variables       ../BookPageObject/book-locator.yaml
 Variables       ../HomePageObjects/home-locators.yaml
 Variables       ../LoginPageObjects/login-locators.yaml
 
+<<<<<<< HEAD
 * Keywords *
+=======
+*** Keywords ***
+>>>>>>> fee74fbb240263c612f45e498964d5fbbef1a319
 Click Sign Button
     Click Sign In Button On Home Screen
 
@@ -79,4 +87,9 @@ Choose Price
 
 Click Confirm Order
     Wait Until Element Is Visible    ${confirm-order}
+<<<<<<< HEAD
      Click Element    ${confirm-order}
+=======
+     Click Element    ${confirm-order}
+
+>>>>>>> fee74fbb240263c612f45e498964d5fbbef1a319
